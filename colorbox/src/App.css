@@ -1,0 +1,23 @@
+.box {
+  height: 30px;
+  width: 30px;
+  border: solid 1px black;
+}
+
+.boxConatiner {
+  height: 100px;
+  width: 100px;
+  display: grid;
+  margin: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.coloredBox {
+  height: 30px;
+  width: 30px;
+  border: solid 1px green;
+  background-color: green;
+}
