@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+colorbox/node_modules
+colorbox/.pnp
+colorbox/.pnp.js
+
+grid_with_incremental_value/node_modules
+grid_with_incremental_value/.pnp
+/.pnp.js
+
+# testing
+colorbox/coverage
+grid_with_incremental_value/coverage
+
+# production
+colorbox/build
+grid_with_incremental_value/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
