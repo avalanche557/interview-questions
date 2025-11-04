@@ -7,15 +7,21 @@ colorbox/.pnp.js
 
 grid_with_incremental_value/node_modules
 grid_with_incremental_value/.pnp
-/.pnp.js
+grid_with_incremental_value/.pnp.js
+
+circle_game/node_modules
+circle_game/.pnp
+circle_game/.pnp.js
 
 # testing
 colorbox/coverage
 grid_with_incremental_value/coverage
+circle_game/coverage
 
 # production
 colorbox/build
 grid_with_incremental_value/build
+circle_game/build
 
 # misc
 .DS_Store
