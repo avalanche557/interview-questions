@@ -38,9 +38,9 @@ export const useUndoredo = (value) => {
 
         window.addEventListener('keydown', handlekeyDown)
 
-    }) 
+    }, [undo, redo]) 
 
 
 
-    return [history, set, undo, redo]
+    return [history, set, undo, redo, keyref]
 }
